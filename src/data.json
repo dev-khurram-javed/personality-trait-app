@@ -1,0 +1,107 @@
+{
+    "quizTitle": "Personality Trait Questionnaire",
+    "questions": [
+        {
+            "questionId": 1,
+            "questionText": "How do you feel at a large social gathering?",
+            "options": {
+                "A": {
+                    "text": "Energized and excited",
+                    "effect": "extrovert"
+                },
+                "B": {
+                    "text": "Comfortable but prefer smaller groups",
+                    "effect": "introvert"
+                },
+                "C": {
+                    "text": "Neutral, I can go either way",
+                    "effect": "neutral"
+                },
+                "D": {
+                    "text": "Overwhelmed and exhausted",
+                    "effect": "introvert"
+                }
+            }
+        },
+        {
+            "questionId": 2,
+            "questionText": "How do you prefer to spend your weekend?",
+            "options": {
+                "A": {
+                    "text": "Going out with friends to a party",
+                    "effect": "extrovert"
+                },
+                "B": {
+                    "text": "Relaxing at home with a book or a movie",
+                    "effect": "introvert"
+                },
+                "C": {
+                    "text": "Meeting a small group of close friends",
+                    "effect": "neutral"
+                },
+                "D": {
+                    "text": "Spending time on a solitary hobby",
+                    "effect": "introvert"
+                }
+            }
+        },
+        {
+            "questionId": 3,
+            "questionText": "How do you approach new people?",
+            "options": {
+                "A": {
+                    "text": "I enjoy meeting and talking to new people",
+                    "effect": "extrovert"
+                },
+                "B": {
+                    "text": "I prefer waiting for others to approach me",
+                    "effect": "introvert"
+                },
+                "C": {
+                    "text": "I feel nervous but manage to engage",
+                    "effect": "neutral"
+                },
+                "D": {
+                    "text": "I avoid meeting new people whenever possible",
+                    "effect": "introvert"
+                }
+            }
+        },
+        {
+            "questionId": 4,
+            "questionText": "In a group project, what role do you usually take?",
+            "options": {
+                "A": {
+                    "text": "I naturally take the lead and organize the group",
+                    "effect": "extrovert"
+                },
+                "B": {
+                    "text": "I contribute ideas but avoid taking the lead",
+                    "effect": "neutral"
+                },
+                "C": {
+                    "text": "I prefer doing the work on my own",
+                    "effect": "introvert"
+                },
+                "D": {
+                    "text": "I participate but let others take the initiative",
+                    "effect": "introvert"
+                }
+            }
+        }
+    ],
+    "results": {
+        "extrovert": {
+            "message": "You are more extroverted! You enjoy social interactions, feel energized by being around others, and are likely to be outgoing.",
+            "scoreRange": "Mostly extrovert"
+        },
+        "introvert": {
+            "message": "You are more introverted! You prefer solitude, feel drained by social interactions, and enjoy deep thinking and meaningful conversations.",
+            "scoreRange": "Mostly introvert"
+        },
+        "neutral": {
+            "message": "You have a balanced personality! You enjoy both social interactions and time alone, adapting to different environments based on your mood or the situation.",
+            "scoreRange": "Balanced extrovert/introvert"
+        }
+    }
+}
